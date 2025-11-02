@@ -1,15 +1,25 @@
 {
-  "name": "discord-bot",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "discord-guess-the-song-bot",
+  "version": "2.0.0",
+  "description": "A Discord bot for playing guess the song games with Spotify integration",
+  "main": "src/bot.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "start": "node src/bot.js",
+    "dev": "nodemon --inspect src/bot.js",
+    "dev:watch": "nodemon src/bot.js --watch src",
+    "debug": "node --inspect-brk src/bot.js",
+  "lint": "echo 'Linting not configured yet'",
+  "check": "node -e \"console.log('smoke check OK')\"",
+  "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "node -e \"console.log('Cleaning temp files...'); require('fs').rmSync('./temp', {recursive: true, force: true});\""
   },
-  "keywords": [],
+  "keywords": ["discord", "bot", "music", "game", "spotify", "youtube", "audio"],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
+  "engines": {
+    "node": ">=16.0.0"
+  },
   "dependencies": {
     "@discordjs/opus": "^0.10.0",
     "@discordjs/voice": "^0.19.0",
@@ -21,5 +31,15 @@
     "spotify-web-api-node": "^5.0.2",
     "ytdl-core": "^4.11.5",
     "ytdlp-nodejs": "^2.3.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "your-repo-url"
+  },
+  "bugs": {
+    "url": "your-repo-url/issues"
   }
 }

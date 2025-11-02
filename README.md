@@ -196,6 +196,7 @@ DEBUG=true npm start
 - **YouTube Fallback**: ~5-15 second start time  
 - **Memory Usage**: ~50-100MB typical
 - **Connection Reuse**: Eliminates join/leave delays
+- **Connection Reuse**: Eliminates join/leave delays
 
 ---
 

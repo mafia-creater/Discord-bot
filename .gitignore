@@ -1,2 +1,35 @@
-node_modules
+# Node
+node_modules/
+/.pnp/
+.pnp.js
+
+# dotenv
+.env
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Lock files
+package-lock.json
+pnpm-lock.yaml
+
+# Build
+dist/
+build/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Optional
+coverage/node_modules
 .env
