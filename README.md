@@ -196,3 +196,17 @@ DEBUG=true npm start
 - **YouTube Fallback**: ~5-15 second start time  
 - **Memory Usage**: ~50-100MB typical
 - **Connection Reuse**: Eliminates join/leave delays
+- **Connection Reuse**: Eliminates join/leave delays
+
+---
+
+## 🎃 Hacktoberfest 2025
+
+This project is officially participating in **Hacktoberfest 2025!**  
+Whether you're a beginner or an experienced developer, you're welcome to contribute.
+
+### 💻 How to Contribute
+1. **Fork** the repository  
+2. **Create a new branch** for your feature or fix  
+   ```bash
+   git checkout -b feature/your-feature-name

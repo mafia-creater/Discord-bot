@@ -124,3 +124,19 @@ By contributing, you agree that your contributions will be licensed under the pr
 ---
 
 If you need help getting started, open an issue and tag @mafia-creater or leave a comment on an existing issue.
+
+---
+
+## 🎃 Hacktoberfest 2025 Notice
+
+This project is participating in **Hacktoberfest 2025!**
+
+We welcome all contributors — whether you’re fixing bugs, improving code structure, or adding new Discord game features like:
+- 🎵 New game modes  
+- 🧠 Better hint systems  
+- ⚡ Power-ups and challenges  
+- 🎨 Improved user interaction (embeds, buttons, menus)
+
+Please make sure your PRs are **meaningful and not spammy**.  
+Valid contributions will be labeled:
+
